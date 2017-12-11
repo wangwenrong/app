@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,27 @@
   "bugs": {
     "url": "https://github.com/wangwenrong/app/issues"
   },
-  "homepage": "https://github.com/wangwenrong/app#readme"
+  "homepage": "https://github.com/wangwenrong/app#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5","style-loader": "^0.18.2",
+    "svg-sprite-loader": "^0.3.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
 }
